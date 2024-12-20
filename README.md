@@ -1,8 +1,6 @@
 ## BRA\*: a improved A\*
 
-本仓库介绍了一项研究，针对无人车在移动过程中可能遭遇的碰撞风险与频繁减速等问题，提出了一种基于Anytime Repairing A\*（ARA\*）算法的改进方案——Bidirectional Repairing A\*（BRA\*）算法。
-
-该算法旨在生成路径时，尽量避开狭窄区域或者远离障碍物，并在条件允许的情况下，最小化路径的转角个数，从而提高无人车的安全性和移动效率。
+本仓库介绍了一项研究，针对无人车在移动过程中可能遭遇的碰撞风险与频繁减速等问题，提出了一种基于Anytime Repairing A\*（ARA\*）算法的改进方案——Bidirectional Repairing A\*（BRA\*）算法。该算法旨在生成路径时，尽量避开狭窄区域或者远离障碍物，并在条件允许的情况下，最小化路径的转角个数，从而提高无人车的安全性和移动效率。
 
 
 
@@ -16,8 +14,9 @@
 
 
 ### 算法流程
-
-![BRAstar算法流程.png](./img/BRAstar算法流程.png)
+<p align = "center">    
+  <img src="./img/BRAstar算法流程.png"  align="middle"  width="600" />
+</p>
 
 
 
@@ -27,15 +26,15 @@
 
 #### 阶梯地图
 
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src=".\img\阶梯地图a.png" width="400"/></td>
-    <td><img src=".\img\阶梯地图b.png" width="400"/></td>
+    <td><img src=".\img\阶梯地图a.png" width="250"/></td>
+    <td><img src=".\img\阶梯地图b.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src=".\img\阶梯地图c.png" width="400"/></td>
-    <td><img src=".\img\阶梯地图d.png" width="400"/></td>
+    <td><img src=".\img\阶梯地图c.png" width="250"/></td>
+    <td><img src=".\img\阶梯地图d.png" width="250"/></td>
   </tr>
 </table>
 </div>
@@ -49,15 +48,15 @@
 
 #### 迷宫地图
 
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src=".\img\迷宫地图a.png" width="400"/></td>
-    <td><img src=".\img\迷宫地图b.png" width="400"/></td>
+    <td><img src=".\img\迷宫地图a.png" width="250"/></td>
+    <td><img src=".\img\迷宫地图b.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src=".\img\迷宫地图c.png" width="400"/></td>
-    <td><img src=".\img\迷宫地图d.png" width="400"/></td>
+    <td><img src=".\img\迷宫地图c.png" width="250"/></td>
+    <td><img src=".\img\迷宫地图d.png" width="250"/></td>
   </tr>
 </table>
 </div>
@@ -71,15 +70,15 @@
 
 #### 螺旋地图
 
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src=".\img\螺旋地图a.png" width="400"/></td>
-    <td><img src=".\img\螺旋地图b.png" width="400"/></td>
+    <td><img src=".\img\螺旋地图a.png" width="250"/></td>
+    <td><img src=".\img\螺旋地图b.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src=".\img\螺旋地图c.png" width="400"/></td>
-    <td><img src=".\img\螺旋地图d.png" width="400"/></td>
+    <td><img src=".\img\螺旋地图c.png" width="250"/></td>
+    <td><img src=".\img\螺旋地图d.png" width="250"/></td>
   </tr>
 </table>
 </div>
@@ -93,15 +92,15 @@
 
 #### 简单地图
 
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src=".\img\简单地图a.png" width="400"/></td>
-    <td><img src=".\img\简单地图b.png" width="400"/></td>
+    <td><img src=".\img\简单地图a.png" width="250"/></td>
+    <td><img src=".\img\简单地图b.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src=".\img\简单地图c.png" width="400"/></td>
-    <td><img src=".\img\简单地图d.png" width="400"/></td>
+    <td><img src=".\img\简单地图c.png" width="250"/></td>
+    <td><img src=".\img\简单地图d.png" width="250"/></td>
   </tr>
 </table>
 </div>
@@ -115,15 +114,15 @@
 
 #### 复杂地图
 
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src=".\img\复杂地图a.png" width="400"/></td>
-    <td><img src=".\img\复杂地图b.png" width="400"/></td>
+    <td><img src=".\img\复杂地图a.png" width="250"/></td>
+    <td><img src=".\img\复杂地图b.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src=".\img\复杂地图c.png" width="400"/></td>
-    <td><img src=".\img\复杂地图d.png" width="400"/></td>
+    <td><img src=".\img\复杂地图c.png" width="250"/></td>
+    <td><img src=".\img\复杂地图d.png" width="250"/></td>
   </tr>
 </table>
 </div>
